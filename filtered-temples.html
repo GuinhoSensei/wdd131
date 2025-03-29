@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Title" content="">
+    <meta name="Author" content="Thiago Gomes Gouveia">
+    <meta name="Temple Album" content="Has pictures pf multiple LDS temples">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+   
+    <title>Temple Album</title>
+</head>
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <button id="menu-toggle" aria-label="Toggle Navigation">☰</button>
+        <nav>
+            <ul id="nav-menu">
+                <li><button data-filter="home">Home</button></li>
+                <li><button data-filter="old">Old</button></li>
+                <li><button data-filter="new">New</button></li>
+                <li><button data-filter="large">Large</button></li>
+                <li><button data-filter="small">Small</button></li>
+              </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Temple Album</h1>
+        <div class="temple-gallery">
+            
+        </div>
+    </main>
+      <footer>
+        <p id="copyright"></p>
+        <p id="lastModified"></p>
+        <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+        <script src="scripts/filtered-temples.js"></script>
+      </footer>
+   
+</body>
+</html>
