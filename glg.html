@@ -26,14 +26,36 @@
       <p>Explore the world of <em>One Piece</em> – meet the crew, learn about Devil Fruits, and discover your pirate spirit!</p>
     </section>
 
+    <!-- Fullscreen Modal -->
+<div id="image-modal" class="modal">
+  <span id="modal-close">&times;</span>
+  <img id="modal-img" alt="Expanded carousel image">
+</div>
+
+
     <section class="highlights">
       <h2>Highlights</h2>
       <div class="carousel">
-        <div class="carousel-item">Luffy's First Adventure</div>
-        <div class="carousel-item">Zoro's Sword Style</div>
-        <div class="carousel-item">Nami’s Navigational Skills</div>
+        <div class="carousel-item active">
+          <img src="images/luffy.webp" alt="Luffy's First Adventure">
+          <p>Luffy's First Adventure</p>
+        </div>
+        <div class="carousel-item">
+          <img src="images/zoro.webp" alt="Zoro's Sword Style">
+          <p>Zoro's Sword Style</p>
+        </div>
+        <div class="carousel-item">
+          <img src="images/nami.webp" alt="Nami’s Navigational Skills">
+          <p>Nami’s Navigational Skills</p>
+        </div>
+      </div>
+      <div class="carousel-controls">
+        <button id="prev">⟵ Prev</button>
+        <button id="next">Next ⟶</button>
       </div>
     </section>
+    
+    
   </main>
   <footer>
     <p>&copy; 2025 Grand Line Guide | <a href="references.html">References</a></p>
